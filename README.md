@@ -28,19 +28,19 @@ pip install wagtail
 git clone <https://github.com/diegofreitas11/blog-react-wagtail.git>
 ```
 
-2.Acesse:
+2. Acesse:
 
 ```bash
 cd blog-react-wagtail/blogBackend
 ```
 
-3.Ative o ambiente virtual:
+3. Ative o ambiente virtual:
 
 ```bash
 source venv/bin/activate
 ```
 
-4.Rode o projeto:
+4. Rode o projeto:
 
 ```bash
 python manage.py runserver
@@ -67,4 +67,4 @@ ou
 npm start
 ```
 
-3.Acesse o endereço http://localhost:3000/ pelo navegador.
+3. Acesse o endereço http://localhost:3000/ pelo navegador.
