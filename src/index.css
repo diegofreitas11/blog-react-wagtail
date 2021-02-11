@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+#top-bar{
+  position: fixed;
+  z-index: 1;
+  background-color: #FFF;
+  width: 100%;
+  height: 75px;
+  padding-left: 5%;
+}
+
+#top-bar h1:hover, #load-more-button:hover{
+  cursor: pointer;
+}
+
+
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+#teste{
+  margin-top: 100px;
+
+}
+
+#head-image-container{
+  margin-top: 80px;
+  width: 80%;
+  position: relative;
+}
+
+.image:hover{
+  filter: brightness(50%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#head-image-mask{
+  border: 1px dotted red;
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(to top, black 20%, transparent 80%);
+  opacity: 0;
+
+}
+
+#head-image-mask:hover{
+  opacity: 0.7;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#head-image-container p {
+  position: absolute;
+  color: #FFF;
+  font-size: 24pt;
+  margin-right: 5%;
+  left: 5%;
+  bottom: 0;
+}
+
+.post-row{
+  display: flex;
+  flex-direction: row;
+}
+
+#post-list{
+  width: 80%;
+}
+
+.image-container-left{
+  width: 50%;
+  position: relative;
+  margin-right: 0.25%;
+}
+
+.image-container-right{
+  width: 50%;
+  position: relative;
+  margin-left: 0.25%;
+}
+
+.image-container-left p, .image-container-right p {
+  position: absolute;
+  color: #FFF;
+  font-size: 16pt;
+  margin-right: 5%;
+  left: 5%;
+  bottom: 0
+}
+
+#post{
+  width: 80%;
+  margin-top: 80px;
+}
+
+#loading-more-container {
+  margin-top: -15px;
+}
+
+#loading-container {
+  margin-top: 80px;
+}
+
+#text p{
+  font-size: 16pt;
+  font-weight: 100;
+}
+
+#load-more-button{
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 80%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  margin-top: 15px;
+}
+
+
+
+
