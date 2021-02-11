@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<h1 align="center">Blog com ReactJs e Wagtail.</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Fiz essa SPA de um blog utilizando React.JS e o CMS Wagtail (para quem não sabe é um CMS que utiliza Django/Python).</p>
 
-## Available Scripts
+<h2 align="center">Como testar.</h2>
 
-In the project directory, you can run:
+<h2 align="center">Instalações necessárias.</h2>
 
-### `yarn start`
+<h3 align="center">Front end.</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">É necessário instalar as ferramentas <a href='https://git-scm.com'>Git</a>, <a href='https://nodejs.org/'>Node.js</a> e <a href='https://pt-br.reactjs.org/'>ReactJs</a>. Também utilize o gerencionar de pacotes de sua preferência: NPM (já vem com o Node) e <a href='https://classic.yarnpkg.com/pt-BR/docs/install/'>Yarn </a>.</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h3 align="center">Back end.</h3>
 
-### `yarn test`
+<p align="center">É necessário instalar o <a href='https://www.python.org/downloads/'>Python</a>. A partir daí é possível instalar o Django e o Wagtail pelos comandos: </p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+pip install django
 
-### `yarn build`
+pip install wagtail
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2 align="center">Como testar</h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3 align="center">Back end.</h3>
 
-### `yarn eject`
+1. Clone o projeto no repositório de preferência: 
+```bash
+git clone <https://github.com/diegofreitas11/blog-react-wagtail.git>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2.Acesse:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd blog-react-wagtail/blogBackend
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3.Ative o ambiente virtual:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+source venv/bin/activate
+```
 
-## Learn More
+4.Rode o projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+python manage.py runserver
+```
+ou
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+python3 manage.py runserver
+```
 
-### Code Splitting
+<h3 align="center">Front end.</h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Em outra janela do terminal, acesse a pasta do projeto:
+```bash
+cd blog-react-wagtail
+```
 
-### Analyzing the Bundle Size
+2. Rode o projeto em desenvolvimento:
+```bash
+yarn start
+```
+ou
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3.Acesse o endereço http://localhost:3000/ pelo navegador.
