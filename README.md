@@ -2,8 +2,6 @@
 
 <p align="center">Fiz essa SPA de um blog utilizando React.JS e o CMS Wagtail (para quem não sabe é um CMS que utiliza Django/Python).</p>
 
-<h2 align="center">Como testar.</h2>
-
 <h2 align="center">Instalações necessárias.</h2>
 
 <h3 align="center">Front end.</h3>
