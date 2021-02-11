@@ -68,3 +68,15 @@ npm start
 ```
 
 3. Acesse o endereço http://localhost:3000/ pelo navegador.
+
+<h2 align="center">Alguns gifs</h2>
+
+<p align="center"> 
+  <img src = "gifs/blog1.gif"/>
+</p> 
+
+<p align="center"> 
+  <img src = "gifs/blog2.gif"/>
+</p> 
+
+
